@@ -1,0 +1,103 @@
+{% extends 'website/base.html' %}
+
+{% load static %}
+
+{% load humanize %}
+
+
+{% block title %}Nos Causes{% endblock %}
+
+
+
+{% block body %}
+
+	<div class="hero-wrap" style="background-image: url('{% static 'website/images/bg_2.jpg' %}');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+             <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="{% url 'acceuil' %}">Acceuil</a></span> <span>Nos Causes</span></p>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Nos Causes</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 ftco-animate">
+            <div class="cause-entry">
+                  <a href="#" class="img" style="background-image: url('{% static 'website/images/cause-7.jpg' %}');"></a>
+                  <div class="text p-3 p-md-4">
+                    <h3><a href="#">Masques Sanitaires</a></h3>
+                    <p>Achat de 100 000 Masques Sanitaires à distribuer dans les quartiers défavorisés</p>
+                    <span class="donation-time mb-3 d-block">Dernier don | Il y'a 30 mn</span>
+                    <div class="progress custom-progress-success">
+                      <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="fund-raised d-block">120 000 levée sur 31 000 400 Frs CFA</span>
+                  </div>
+            </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="cause-entry">
+                  <a href="#" class="img" style="background-image: url('{% static 'website/images/cause-8.jpg' %}');"></a>
+                  <div class="text p-3 p-md-4">
+                    <h3><a href="#">Kits alimentaires</a></h3>
+                    <p>Achat de 1000 Kits alimentaires à distribuer dans les quartiers défavorisés</p>
+                    <span class="donation-time mb-3 d-block">Dernier don | Il y'a 1 jour</span>
+                    <div class="progress custom-progress-success">
+                      <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="fund-raised d-block">1 200 000 levée sur 6 000 000 Frs CFA</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="cause-entry">
+                  <a href="#" class="img" style="background-image: url('{% static 'website/images/cause-9.jpg' %}');"></a>
+                  <div class="text p-3 p-md-4">
+                    <h3><a href="#">Centres multimédia</a></h3>
+                    <p>Création de 10 centres multimédia au sein de Libreville, Port-gentil, Makoukou et Mouilla</p>
+                    <span class="donation-time mb-3 d-block">Dernier don | Il y'a 1 jour</span>
+                    <div class="progress custom-progress-success">
+                      <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="fund-raised d-block">8 200 000 levée sur 16 000 000 Frs CFA</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <div class="cause-entry">
+                  <a href="#" class="img" style="background-image: url('{% static 'website/images/cause-10.jpg' %}');"></a>
+                  <div class="text p-3 p-md-4">
+                    <h3><a href="#">Véhicules d'urgence</a></h3>
+                    <p>Achat de 4 véhicules pour aider les urgentistes et ambulanciers.</p>
+                    <span class="donation-time mb-3 d-block">Dernier don | Il y'a 1 jour</span>
+                    <div class="progress custom-progress-success">
+                      <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span class="fund-raised d-block">75 000 000 levée sur 80 000 000 Frs CFA</span>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+{% endblock %}
