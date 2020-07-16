@@ -264,6 +264,14 @@
     }
   });
 
+
+$('.test-popup-link').magnificPopup({
+    items: {
+      src: "{% static 'website/images/cause-7.jpg' %}"
+    },
+    type: 'image' // this is default type
+});
+
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',
