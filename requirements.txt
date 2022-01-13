@@ -13,7 +13,7 @@ django-widget-tweaks==1.4.8
 djangorestframework==3.11.0
 idna==2.9
 mysqlclient==1.4.6
-Pillow==7.1.2
+Pillow==9.0.0
 PyJWT==1.7.1
 pytz==2020.1
 qrcode==6.1
