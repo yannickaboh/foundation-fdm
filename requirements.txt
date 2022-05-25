@@ -14,7 +14,7 @@ djangorestframework==3.11.0
 idna==2.9
 mysqlclient==1.4.6
 Pillow==7.1.2
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2020.1
 qrcode==6.1
 requests==2.24.0
